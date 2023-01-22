@@ -18,30 +18,37 @@ EMAIL: koutama@uci.edu
 
 </head>
   <body>
-    <input type="checkbox" name="" id="check">
-    <div class="side-bar">
-      <label for="check">
-        <span class="fas fa-times mark times-mark" id="times"></span>
-        <span class="fas fa-bars mark bars-mark" id="bars"></span>
-      </label>
-      <div class="user">
-        Koby S. Outama
-      </div>
-        <nav class="items">
-          <ul>
-            <li><a href="home.html"><i class="fas fa-home"></i></i> Home</a></li>
-            <li><a href="about_me.html"><i class="fas fa-user"></i> About Me</a></li>
-            <li><a href="technical.html"><i class="fas fa-cogs"></i> Technical</a></li>
-            <!-- <li><a href="interests.html">Hobbies</a></li> -->
-            <li><a href="contact.html"><i class="fas fa-phone"></i> Contacts</a></li>
+      <input type="checkbox" name="" id="check">
+      <div class="side-bar">
+        <label for="check">
+          <span class="fas fa-bars mark bars-mark" id="bars"></span>
+          <span class="fas fa-times mark times-mark" id="times"></span>
+        </label>
+        <div class="user">
+          <img class="prof-pic" src="./img/pfp.png" alt="Koby S. Outama"> 
+          <h3 class="dis-min">Koby S. Outama</h3>
+          <h3 class="dis-full">Koby Shaiseththah Outama</h3>
+        </div>
+          <nav class="items">
+            <ul>
+              <li><a href="home.html"><i class="fas fa-home"></i></i><span class="dis-full">Home</span></a></li>
+              <li><a href="about_me.html"><i class="fas fa-user"></i> <span class="dis-full">About Me</span></a></li>
+              <li><a href="technical.html"><i class="fas fa-cogs"></i><span class="dis-full"> Technical</span></a></li>
+              <li><a href="contact.html"><i class="fas fa-phone"></i> <span class="dis-full">Contact Me</span></a></li>
+            </ul>
+          </nav>
+        <div class="social">
+          <ul class="social-list">
+            <li><a href="https://github.com/kobyoutama" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/koby-outama/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
           </ul>
-        </nav>
-      <div class="social">
-        <ul class="social-list">
-          <li><a href="https://github.com/kobyoutama" target="_blank"><i class="fab fa-github-square"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/koby-outama/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        </ul>
+        </div>
       </div>
-    </div>
+    <section class="home" id="home">
+      <h2>Welcome!</h2>
+      <h1>My name is <span class="highlight">Koby Shaiseththah Outama</span></h1>
+      <h3>I am fourth year at UC Irvine studying Computer Science with a concentration on Information, seeking opportunities in the <span class="highlight">Software Engineering Field</span> to utilize my skillset and knowledge related to machine learning&#47;data mining, data engineering, and programming. </h3>
+      <a class="btn" href="./about-me">About Me</button>
+    </section>
   </body>
 </html>
