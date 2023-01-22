@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-bar{
+    
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    transition: 0.5s ease;
+    transform: translateX(-250px);
+    background-color: #c3829e;
+}
+
+.side-bar .user{
+    color: #fcd1d7;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color:#562135;
+    /* background: linear-gradient(90deg, #c3829e,#fcf1d7); */
+
+}
+
+.side-bar .items{
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar .social { 
+
+    padding: 0px;
+    padding-right: 10px;
+    text-align: right;
+    height: 48px;
+    list-style-type: none;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.side-bar ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.social ul{
+    margin: 0;
+    padding: 0;
+}
+
+.social ul li{
+    display: inline-block;
+}
+
+.social ul li a{
+    font-size: 32px;
+    margin-left: 10px;
+    transition: 0.3s;
+    color: #fcd1d7;
+}
+
+.social ul li:hover a{
+    color: #562135;
+    position: relative;
+    background-color: #fcd1d75e;
+    transition: 0.3s;
+    font-size: 42px;
+}
+
+.items ul li{
+    width: 100%;
+    display: block;
+}
+
+.items ul li a{
+    display: block;
+    padding: 1em;
+    color: #fcd1d7;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.items ul li a i{
+    width: 70px;
+    font-size: 24px;
+    text-align: center;
+    padding-left:30px;
+}
+
+.items ul li:hover a{
+    color: #562135;
+    background-color: #fcd1d75e;
+    transition: 0.3s;
+    letter-spacing: 5px;
+}
+
+input{
+    visibility: hidden;
+    display: none;
+}
+
+.mark{
+    position: absolute;
+    right: -40px;
+    top:30px;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    color: white;
+    background-color: #c3829e;
+}
+
+.mark .times-mark{
+    right: -40px;
+}
+
+.mark .bars-mark{
+    right: -45px;
+}
+
+#bars{
+    font-size: 30px;
+    background-color: #562135;
+}
+#check:checked ~ .side-bar{
+    transform: translateX(0);
+}
+#check:checked ~ .side-bar #bars{
+    display: none;
+}
+
+
+
+/* 
+#562135	(86,33,53)
+#c3829e	(195,130,158)
+#e9b1cd	(233,177,205)
+#ffe7de	(255,231,222)
+#fcd1d7 (252,209,215)*/
