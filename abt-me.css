@@ -1,0 +1,42 @@
+.abt{
+    color: #e9b1cd;
+    display: flex;
+    justify-content: center;
+    flex-flow: column; 
+    padding: .75rem 3rem;
+}
+
+@media (max-width:39rem) {
+    .technical{
+        padding: .75rem 1.75rem;
+    }
+}
+
+.abt h1{
+    font-size: clamp(2.5rem, .25rem + 5vw, 4rem);
+    padding: 1.25rem 0;
+}
+.abt h2{
+    font-size: clamp(1.5rem, .25rem + 5vw, 3rem);
+}
+.abt .btn{
+    height: 4rem;
+    width: 8rem;
+    margin-top: 1.5rem;
+    padding-top: .85rem;
+    padding-left: 1.38rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+
+    text-decoration: none;
+    cursor: pointer;
+    color:#562135;
+    background-color: #e7dad6;
+
+    transition: .3s;
+}
+
+.abt .btn:hover{
+    color:#e7dad6;
+    background-color: #562135;
+}
