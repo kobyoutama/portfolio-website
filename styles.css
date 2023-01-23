@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +15,7 @@
     text-align: center;
     z-index: 1;
     transition: 0.5s ease;
-    transform: translateX(0rem);
+    transform: translateX(-12rem);
     background-color: #c3829e;
 }
 
@@ -118,7 +117,7 @@
     letter-spacing: .313rem;
 }
 
-input{
+#check{
     visibility: hidden;
     display: none;
 }
@@ -136,17 +135,18 @@ input{
     background-color: #562135;
 }
 
+
 #bars{
     right: -3.5rem;
     font-size: 1.875rem;
 }
 #check:checked ~ .side-bar{
-    transform: translateX(-12rem);
+    transform: translateX(0rem);
 }
-#check:checked ~ .side-bar #times{
+#check:checked ~ .side-bar #bars{
     display: none;
 }
-#check:not(:checked) ~ .side-bar #bars{
+#check:not(:checked) ~ .side-bar #times{
     display: none;
 }
 section{
@@ -156,7 +156,7 @@ section{
     transition: 0.5s;
     filter: brightness(1);
 }
-#check:not(:checked) ~ section{
+#check:checked ~ section{
     filter: brightness(30%);
 }
 @media (max-height:50rem){
@@ -186,6 +186,7 @@ section{
 @media (min-width:40em) {
     .side-bar{
         width:24rem;
+        transform: translateX(-24rem);
     }
     .side-bar .prof-pic{
         height: 12rem;
@@ -195,56 +196,10 @@ section{
         display: none;
     }
     #check:checked ~ .side-bar{
-        transform: translateX(-24rem);
+        transform: translateX(0rem);
     }
 
 } 
-
-
-.home{
-    color: #e9b1cd;
-    display: flex;
-    justify-content: center;
-    flex-flow: column; 
-    padding: .75rem 2rem;
-}
-
-.home h1{
-    font-size: clamp(2.5rem, .25rem + 5vw, 4rem);
-    padding: 1.25rem 0;
-}
-.home h2{
-    font-size: clamp(1.5rem, .25rem + 5vw, 3rem);
-}
-.home h3{
-    font-size: clamp(.75rem, .25rem + 5vw, 2rem);
-}
-
-.home .highlight{
-    color:#e7dad6;
-}
-
-.home .btn{
-    height: 4rem;
-    width: 11rem;
-    margin-top: 1.5rem;
-    padding-top: .85rem;
-    padding-left: 1.25rem;
-    font-size: 2rem;
-    border-radius: 2rem;
-
-    text-decoration: none;
-    cursor: pointer;
-    color:#562135;
-    background-color: #e7dad6;
-
-    transition: .3s;
-}
-
-.home .btn:hover{
-    color:#e7dad6;
-    background-color: #562135;
-}
 
 /*
 #562135	(86,33,53)
