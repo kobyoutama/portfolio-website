@@ -65,7 +65,7 @@ Used chrome extension "responsive viewer" to check website is responsive.
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-None, I don't know anymore :[
+None, I don't know anyone :[
 
 6. Is there anything special we need to know in order to run your code?
 

@@ -5,7 +5,7 @@
 @media (min-width: 45rem){
     .row{
         display: flex;
-        flex: flex-wrap;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         padding: 1rem 0rem;
