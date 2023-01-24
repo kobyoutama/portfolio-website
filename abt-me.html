@@ -19,32 +19,33 @@ EMAIL: koutama@uci.edu
 
 </head>
   <body>
-      <input type="checkbox" name="" id="check">
-      <div class="side-bar">
-        <label for="check">
-          <span class="fas fa-bars mark bars-mark" id="bars"></span>
-          <span class="fas fa-times mark times-mark" id="times"></span>
+    <input type="checkbox" name="side-bar-toggle" id="check">
+    <div class="side-bar">
+      <label for="check">
+        <span class="fas fa-bars mark bars-mark" id="bars"></span>
+        <span class="fas fa-times mark times-mark" id="times"></span>
+        <span class="hidden">toggle-button</spand>
         </label>
-        <div class="user">
-          <img class="prof-pic" src="./img/pfp.png" alt="Koby Outama Head Shot"> 
-          <h3 class="dis-min">Koby S. Outama</h3>
-          <h3 class="dis-full">Koby Shaiseththah Outama</h3>
-        </div>
-          <nav class="items">
-            <ul>
-              <li><a href="./"><i class="fas fa-home"></i></i><span class="dis-full">Home</span></a></li>
-              <li><a href="./abt-me.html"><i class="fas fa-user"></i> <span class="dis-full">About Me</span></a></li>
-              <li><a href="./technical.html"><i class="fas fa-cogs"></i><span class="dis-full"> Technical</span></a></li>
-              <li><a href="./contact.html"><i class="fas fa-phone"></i> <span class="dis-full">Contact Me</span></a></li>
-            </ul>
-          </nav>
-        <div class="social">
-          <ul class="social-list">
-            <li><a href="https://github.com/kobyoutama" target="_blank"><i class="fab fa-github-square"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/koby-outama/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-          </ul>
-        </div>
+      <div class="user">
+        <img class="prof-pic" src="./img/pfp.png" alt="Outama_pfp"> 
+        <h3 class="dis-min">Koby S. Outama</h3>
+        <h3 class="dis-full">Koby Shaiseththah Outama</h3>
       </div>
+        <nav class="items">
+          <ul>
+            <li><a aria-label="home" href="./"><span aria-hidden="true" class="fas fa-home" title="home"></span> <span class="dis-full">Home</span></a></li>
+            <li><a aria-label="about-me" href="./abt-me.html"><span aria-hidden="true" class="fas fa-user" title="about-me"></span> <span class="dis-full">About Me</span></a></li>
+            <!-- <li><a aria-label="technical" href="./technical.html"><span aria-hidden="true" class="fas fa-cogs" title="technical"></span> <span class="dis-full">Technical</span></a></li> -->
+            <li><a aria-label="contact" href="./contact.html"><span aria-hidden="true" class="fas fa-phone" title="contact"></span> <span class="dis-full">Contact Me</span></a></li>
+          </ul>
+        </nav>
+      <div class="social">
+        <ul class="social-list">
+          <li><a href="https://github.com/kobyoutama" title="github" target="_blank"><em><span class="fab fa-github-square" title="github"></span></em></a></li>
+          <li><a href="https://www.linkedin.com/in/koby-outama/" title="linkedin" target="_blank"><em><span class="fab fa-linkedin" title="linkedin"></span></em></a></li>
+        </ul>
+      </div>
+    </div>
     <section class="abt">
       <h1>Under Construction!</h1>
       <h2>Please Come Again Soon!</h2>

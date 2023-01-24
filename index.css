@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     flex-flow: column; 
-    padding: .75rem 3rem;
+    padding: .75rem 5rem;
 }
 
 @media (max-width:39rem) {
     .home{
-        padding: .75rem 1.75rem;
+        padding: .75rem 2rem;
     }
 }
 

@@ -10,13 +10,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/15
+15/15
 - 1/1 Readme
 - 3/3 Basic HTML content
 - 3/3 Basic CSS styling
 - 2/2 Advanced feature
 - 3/3 Responsive layout
-- */1 Passes validation checks
+- 1/1 Passes validation checks
 - 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
@@ -32,15 +32,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 (b) CSS features
 1. modified padding and margins
 2. modified link, text folor, and other colors (gradient background)
-** Maybe add new font? 
 
 (c) Advanced features
 1. Complex page layout implemented side navigation bar that toggles
 2. Created contact form using HTML forms that works (email).
-
+3. Embedded HTML5 media (downloading resume). 
 
 3. How long, in hours, did it take you to complete this assignment?
-Currently 15 hours
+Currently 17 hours (because i had to learn a lot of new things).
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
@@ -56,7 +55,9 @@ https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of
 https://www.freecodecamp.org/news/how-to-build-a-responsive-navbar-with-a-toggle-menu-using-flexbox-3438e1d08783/
 https://www.color-hex.com/color-palette/3584 color palette
 https://love2dev.com/blog/absolute-centering-css/#:~:text=All%20you%20need%20to%20do,to%20the%20Header's%20CSS%20rules.&text=You%20can%20use%20this%20combination,centered%20within%20a%20parent%20element.
+https://fontawesome.com/v5/docs/web/other-topics/accessibility
 
+https://www.w3schools.com/tags/att_a_download.asp 
 https://www.w3schools.com/howto/howto_css_two_columns.asp
 (w3schools a lot for syntax and to look at optional parameters)
 
@@ -68,4 +69,7 @@ None, I don't know anymore :[
 
 6. Is there anything special we need to know in order to run your code?
 
-I hope not.
+I hope not. I have extra files in here because they are future developments that I want to do after
+the class/assignment due date. The files i used to construct the website thus far are the
+index.html and technical.html with their corresponding css file and a master styles.css file that is
+utilized between all pages to keep consistency. 
