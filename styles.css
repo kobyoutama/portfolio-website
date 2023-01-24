@@ -8,6 +8,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+.hidden{
+    display: none;
+}
+
 .side-bar{
     height: 100%;
     width: 12rem;
